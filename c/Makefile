@@ -84,7 +84,7 @@ lint:
 
 # Run formatter on source directories
 format:
-	@$(FORMATTER) -style=file -i $(SRC_DIR)/* $(INCLUDE_DIR)/*
+	@$(FORMATTER) -style=file -i $(SRC_DIR)/*
 # $(TESTS_DIR)/*
 
 doc: $(DOXYFILE)
